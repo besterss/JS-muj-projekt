@@ -1,4 +1,7 @@
 import { render } from '@czechitas/render';
+import { Header } from '../components/Header';
+import { Plysaci } from '../components/Plysaci'
+
 import '../global.css';
 import './index.css';
 import './super.css';
@@ -23,6 +26,7 @@ const Footer = () => {
   );
 }
 
+/*
 const Plysaci = () => {
 
   const Ctirad = () => {
@@ -61,17 +65,17 @@ const Plysaci = () => {
   )
 }
 
+*/
+
+
 document.querySelector('#root').innerHTML = render(
   <div className="container">
-    <header>
-      <div className="logo"></div>
-      <h1>Plyšáci</h1>
-      <br /> 
-      <Odkazy />
-    </header>
+    <Header title="Můj titulek stránky" user="Filip Procházka" />
+
     <main>
       <p>Moje naklonovaná stránka.</p>
       <br />
+      <Odkazy />
       <Plysaci />
     </main>
     <Footer />
