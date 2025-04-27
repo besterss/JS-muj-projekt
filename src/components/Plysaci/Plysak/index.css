@@ -1,0 +1,26 @@
+
+.plushy {
+  text-align: center;
+  width: 300px;
+  max-width: 300px;
+  flex-shrink: 0;
+}
+
+.plushy_image {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 10px;
+}
+
+.plushy_name {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.plushy_text {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 10px 0;
+}
